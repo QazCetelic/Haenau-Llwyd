@@ -92,7 +92,7 @@ PlasmaCore.SvgItem {
         property variant layers: [centerLayer0, centerLayer1, leftLayer0, leftLayer1, bottomLayer0, rightLayer0, rightLayer1]
         running: true
         repeat: true
-        interval: 5000
+        interval: 30000
         onTriggered: {
             layers[lastLayer].change()
             lastLayer = (lastLayer + 1) % 7
